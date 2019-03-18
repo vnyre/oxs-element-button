@@ -20,7 +20,7 @@ export class AppModule {
 
     ngDoBootstrap() {
         const customElement = createCustomElement(ButtonComponent, {injector: this.injector});
-        customElements.define('app-button', customElement);
+        customElements.define('oxs-element-button', customElement);
     }
 }
 
